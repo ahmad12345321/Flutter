@@ -47,8 +47,8 @@ class _MyappscreenState extends State<Myappscreen> {
         title: Text("My App"),
       ),
       body: GridView.count(crossAxisCount: 2,
-        mainAxisSpacing: 20,
-        crossAxisSpacing: 20,
+        mainAxisSpacing: 10,
+        crossAxisSpacing: 10,
         children: [
           Center(
             child: Padding(
@@ -205,7 +205,944 @@ class _MyappscreenState extends State<Myappscreen> {
                 ),
               ),
             ),
-          )
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[0],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[2],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[4],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[6],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[0],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[2],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[4],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[6],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[0],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[2],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[4],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[6],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[0],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[2],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[4],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[6],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[0],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[2],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[4],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[6],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[0],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[2],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[4],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(2.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: colorss[6],
+                ),
+
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.ad_units,size:20, color: Colors.white,),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: RichText(text: TextSpan(
+                          children:[
+                            TextSpan(
+                                text: "My Name is Muhammad Ahmad Raza Khan.",style: TextStyle(
+                                color: Colors.white
+                            )
+                            ),
+                            TextSpan(
+                                text: "I am studying software engineering in Numl Uiversty",style: TextStyle(
+                                color: Colors.blue,
+                                fontSize: 16
+                            )
+                            )
+                          ]
+                      )),
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
+          
         ],
       ),
     );
